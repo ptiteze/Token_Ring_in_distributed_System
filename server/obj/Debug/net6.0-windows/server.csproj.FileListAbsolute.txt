@@ -1,0 +1,17 @@
+C:\Users\ezernt\source\repos\client\server\bin\Debug\net6.0-windows\server.exe
+C:\Users\ezernt\source\repos\client\server\bin\Debug\net6.0-windows\server.deps.json
+C:\Users\ezernt\source\repos\client\server\bin\Debug\net6.0-windows\server.runtimeconfig.json
+C:\Users\ezernt\source\repos\client\server\bin\Debug\net6.0-windows\server.dll
+C:\Users\ezernt\source\repos\client\server\bin\Debug\net6.0-windows\server.pdb
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\server.csproj.AssemblyReference.cache
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\server.server.resources
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\server.csproj.GenerateResource.cache
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\server.AssemblyInfoInputs.cache
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\server.AssemblyInfo.cs
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\server.csproj.CoreCompileInputs.cache
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\server.dll
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\refint\server.dll
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\server.pdb
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\server.genruntimeconfig.cache
+C:\Users\ezernt\source\repos\client\server\obj\Debug\net6.0-windows\ref\server.dll
