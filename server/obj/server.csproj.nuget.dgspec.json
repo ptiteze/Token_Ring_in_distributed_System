@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ezernt\\source\\repos\\client\\server\\server.csproj": {}
+    "C:\\Users\\ezernt\\source\\repos\\token_ring\\server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ezernt\\source\\repos\\client\\server\\server.csproj": {
+    "C:\\Users\\ezernt\\source\\repos\\token_ring\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ezernt\\source\\repos\\client\\server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\ezernt\\source\\repos\\token_ring\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\ezernt\\source\\repos\\client\\server\\server.csproj",
+        "projectPath": "C:\\Users\\ezernt\\source\\repos\\token_ring\\server\\server.csproj",
         "packagesPath": "C:\\Users\\ezernt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ezernt\\source\\repos\\client\\server\\obj\\",
+        "outputPath": "C:\\Users\\ezernt\\source\\repos\\token_ring\\server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\DevExpress 22.2\\Components\\Offline Packages"

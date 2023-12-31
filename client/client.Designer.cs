@@ -31,7 +31,6 @@
             btn_send = new Button();
             txt_send = new TextBox();
             view_mess = new ListView();
-            btn_passnode = new Button();
             SuspendLayout();
             // 
             // btn_send
@@ -61,22 +60,11 @@
             view_mess.UseCompatibleStateImageBehavior = false;
             view_mess.View = View.List;
             // 
-            // btn_passnode
-            // 
-            btn_passnode.Location = new Point(636, 416);
-            btn_passnode.Name = "btn_passnode";
-            btn_passnode.Size = new Size(112, 34);
-            btn_passnode.TabIndex = 6;
-            btn_passnode.Text = "passnode";
-            btn_passnode.UseVisualStyleBackColor = true;
-            btn_passnode.Click += button1_Click;
-            // 
             // client
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(btn_passnode);
             Controls.Add(btn_send);
             Controls.Add(txt_send);
             Controls.Add(view_mess);
@@ -92,6 +80,5 @@
         private Button btn_send;
         private TextBox txt_send;
         private ListView view_mess;
-        private Button btn_passnode;
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "egXU6Ud/Hm93tmquyAx15dXFj2QB86XgDj5Rw79bG8r4VCwerSkLF0VoVY+XuBN2dlPgikufVhs6vLgXOEISqQ==",
+  "dgSpecHash": "qjVcFSKCvIUFpGwZesf4gikBpflb2/dowtKPg/IfhMmtvcSv6AVF44F57VycUr5UFFy9zHHlvh20yeUwMG7Jqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ezernt\\source\\repos\\client\\client\\client.csproj",
+  "projectFilePath": "C:\\Users\\ezernt\\source\\repos\\token_ring\\client\\client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

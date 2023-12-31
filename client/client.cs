@@ -13,11 +13,10 @@ namespace client
             CheckForIllegalCrossThreadCalls = false;
             Connect();
         }
-        IPEndPoint IPServer, IPnode;
+        IPEndPoint IPServer;
         Socket clients;
         Socket node;
-        Socket lastnode;
-        IPEndPoint IPNextNode;
+
         bool token = false;
         private void btn_send_Click(object sender, EventArgs e)
         {
@@ -35,42 +34,11 @@ namespace client
         }
         void Connect()
         {
-            IPServer = new IPEndPoint(IPAddress.Parse("192.168.1.4"), 5000);
-            //IPNextNode = new IPEndPoint(IPAddress.Parse("192.168.1.11"), 5002);
-            //IPnode = new IPEndPoint(IPAddress.Any, 5002);
+
             clients = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            //node = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-
-            //node.Bind(IPnode);
-            //Thread Listen = new Thread(() =>
-            //{
-            //    try
-            //    {
-            //        while (true)
-            //        {
-            //            node.Listen(2);
-            //            lastnode = node.Accept();
-            //            Thread listen = new Thread(ReceiveToken);
-            //            listen.IsBackground = true;
-            //            listen.Start(lastnode);
-            //        }
-            //    }
-            //    catch
-            //    {
-            //        IPnode = new IPEndPoint(IPAddress.Any, 5002);
-            //        node = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            //    }
-
-
-            //});
-            //Listen.IsBackground = true;
-            //Listen.Start();
-            //MessageBox.Show("start thanh cong");
             try
             {
                 clients.Connect(IPServer);
-                //node.Connect(IPNextNode);
-                //MessageBox.Show("connect server thanh cong");
             }
             catch
             {
@@ -78,9 +46,6 @@ namespace client
             }
 
             Thread listen = new Thread(Receive);
-            //Thread passNode = new Thread(ReceiveToken);
-            //passNode.IsBackground = true;
-            //passNode.Start();
             listen.IsBackground = true;
             listen.Start();
         }
@@ -202,7 +167,8 @@ namespace client
 
         private void txt_send_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode==Keys.Enter) {
+            if (e.KeyCode == Keys.Enter)
+            {
                 if (this.token)
                 {
                     Send();
